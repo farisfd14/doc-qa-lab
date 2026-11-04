@@ -9,10 +9,10 @@ and a benchmark that measures how well the retrieval actually works.
 - Retrieve relevant chunks - TF-IDF from scratch (retriever.py) OR neural
 embeddings (embedder.py)
 - Generate grounded answers with a local LLM via Ollama (answer.py)
-- Measure retrieval quality: hit rate on a hand-written test set (evaluate.py)
+- Measure retrieval quality: hit rate on a handwritten test set (evaluate.py)
 
 # How it works (the RAG idea)
-question -> retriever (librarian) -> top-3 chunks -> prompt -> LLM (writer) ->
+question → retriever (librarian) → top-3 chunks → prompt → LLM (writer) →
 answer + sources
 
 ## Setup
@@ -29,11 +29,11 @@ answer + sources
     py src/answer.py
     py -m pytest tests/ -v
 
-## Results (TODO: your numbers, from results/eval_*.csv)
-| Engine | Hit rate    | Avg search time |
-| --- |-------------| --- |
-| TF-IDF | 0/13 (TODO) | ? s |
-| Embeddings | 0/13 (TODO) | ? s |
+## Results
+| Engine | Hit rate | Avg search time |
+| --- |------|-----------------|
+| TF-IDF | 5/13 | 0.0001 s        |
+| Embeddings | 5/13 | 0.013 s         |
 
 ## What I learned
 1. My first test set mixed up two things: answerable questions and unanswerable ones. Both engines
