@@ -9,3 +9,6 @@ tfidf,Does AI and SI are the same?,1,0.0001,sample.txt
 tfidf,Where can we buy medicines?,0,0.0001,sample.txt
 tfidf,Where to go when we are sick?,0,0.0001,sample.txt
 tfidf,Why people always give up?,0,0.0001,sample.txt
+tfidf,The topography of the watershed was shaped heavily by what?,0,0.0007,sample.txt
+tfidf,In which County does the Chimacum Creek exist?,1,0.0007,sample.txt
+tfidf,Where does Quimper Peninsula located?,0,0.0001,sample.txt

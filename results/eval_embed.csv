@@ -1,11 +1,14 @@
 engine,question,hit,search_time_s,top_source
-embed,What is Chimacum Creek?,1,0.0172,sample.txt
-embed,Where is Chimacum Creek located?,1,0.0143,sample.txt
-embed,What happened to the watershed in the 1850s?,1,0.0159,sample.txt
-embed,What is the meaning of Trending?,0,0.0137,sample.txt
-embed,Where is the capital of Indonesia?,0,0.0147,sample.txt
-embed,What's the different of cool and hot?,0,0.0154,sample.txt
-embed,Does AI and SI are the same?,1,0.0155,sample.txt
-embed,Where can we buy medicines?,0,0.015,sample.txt
-embed,Where to go when we are sick?,0,0.0181,sample.txt
-embed,Why people always give up?,0,0.0125,sample.txt
+embed,What is Chimacum Creek?,1,0.0175,sample.txt
+embed,Where is Chimacum Creek located?,1,0.016,sample.txt
+embed,What happened to the watershed in the 1850s?,1,0.0153,sample.txt
+embed,What is the meaning of Trending?,0,0.0117,sample.txt
+embed,Where is the capital of Indonesia?,0,0.0114,sample.txt
+embed,What's the different of cool and hot?,0,0.011,sample.txt
+embed,Does AI and SI are the same?,1,0.011,sample.txt
+embed,Where can we buy medicines?,0,0.0119,sample.txt
+embed,Where to go when we are sick?,0,0.0183,sample.txt
+embed,Why people always give up?,0,0.0112,sample.txt
+embed,The topography of the watershed was shaped heavily by what?,0,0.0131,sample.txt
+embed,In which County does the Chimacum Creek exist?,1,0.0119,sample.txt
+embed,Where does Quimper Peninsula located?,0,0.0106,sample.txt
