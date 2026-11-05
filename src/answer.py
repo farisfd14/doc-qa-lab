@@ -70,7 +70,7 @@ def ask_ollama(prompt: str) -> tuple:
         timeout=300,
     )
     elapsed = time.perf_counter() - start
-    return resp.json()["response"].strip(), elapsed
+    return pick_answer(resp.json()), elapsed
 
 
 def main():
